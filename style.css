@@ -25,7 +25,7 @@ nav,.nav_links{
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 88px;
     }
@@ -47,42 +47,36 @@ nav,.nav_links{
     a:hover{
         color: grey;
     }
-    .image{
+    .home{
         display: flex;
         justify-content: center;
+        gap: 3rem;
+        height: 80vh;
         align-items: center;
-        margin:  30px;
-        padding: 20% ;
-        }
-        
-    img{
-        border-radius: 50%;
-        width: 384px;
-        height: 384px;
-       
     }
-
-.home{
-    align-items: center;
-    display: flex;
-    align-items: center;
+    .section_container{
+        display: flex;
+        height: 15rem;
+        width: 10rem;
+        padding: 5Opx 30px;
+    }
+    img{
+        height: 20rem;
+        width: 40rem;
+        border-radius: 80%;
+        margin-right: 40px;
     
-    
-}
- .home_content{
-    align-items: center;
-    width: 480px;
-    height: 452px;
-    top: 299px;
-    left: 777px;
-    margin: 6rem;
-
+    }
+    .section_text{
+        margin: 6rem ;
+        text-align: left;
+        width: 20rem;
     }
 #home_content_h1{
     font-size: 32px;
 }
 footer{
-     border-block-start: solid; 
+     border-top: 1px solid rgba( 218, 211, 211, 0.903);
     writing-mode: horizontal-tb;
      justify-content: space-around;
 }
@@ -131,18 +125,14 @@ footer{
     width: 15px;
     height: 10px;
 }
-.container{
-    max-width: 1170px;
-    background-color: white;
-    margin: auto;
-}
+
 .row{
     display: flex;
     flex-wrap: wrap;
 }
 .footer-col{
     width: 25%;
-    padding: 0 15px;
+    padding: 0 10px;
     margin-top: 50px;
 }
 .footer-co h4 {
@@ -150,7 +140,31 @@ footer{
     text-transform: capitalize;
     margin-bottom: 30px;
 }
-.footer-co{
-    padding: 0 15px;
-    margin-top: 50px;
+#copyright{
+    margin: 1rem 0rem;
+    text-align: right;
+}
+
+/* cv*/
+
+#h1-cv{
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+#main-cv{
+   /* margin: 5rem;*/
+   padding: 100px;
+}
+section h3{
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+.head-h4-cv{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.head-p-ul{
+   padding: 1.5rem;
+   line-height: 1.8rem;
 }
