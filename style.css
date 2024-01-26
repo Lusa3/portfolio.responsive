@@ -51,8 +51,8 @@ nav,.nav_links{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
+        padding-top: 10rem;
+        padding-bottom: 20rem;
     }
     .section_container{
         display: flex;
@@ -63,7 +63,7 @@ nav,.nav_links{
         height: 22rem;
         width: 25rem;
         border-radius: 50%;
-        padding: 50px 
+        padding: 20px; 
     }
     
     .section_text{
@@ -123,24 +123,25 @@ nav,.nav_links{
     height: 10px;
 }
 footer{
-    border-top: 1px solid rgba( 218, 211, 211, 0.903);
-   writing-mode: horizontal-tb;
-    justify-content: space-between;
+    display: flex;
+    width: 100%;
+   border-top: 1px solid rgba( 218, 211, 211, 0.903);
+    justify-content: center;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .footer-2{
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .footer-col{
-    width: 20rem;
-    padding:  0 10px;
+    /*padding:  0 20px;*/
     margin-top: 1rem;
 }
 .footer-col h4 {
     font-size: 15px;
-    text-transform: capitalize;
+  /*  text-transform: capitalize;*/
     padding-bottom: 1.9rem;
 }
 iconify-icon{
@@ -158,25 +159,26 @@ iconify-icon{
     margin-bottom: 2rem;
 }
 #main-cv{
-    margin: 2rem;
-   padding: 100px;
+  margin: 2rem;
+   padding: 10rem;
 }
 .section-h3{
     font-size: 1.3rem;
-    padding: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
    }
 .head-h4-cv{
     display: flex;
     justify-content: space-between;
-    margin-top: 5rem;
-    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     height: 4rem;
 }
 .head-p-ul{
    padding: 1.5rem;
    line-height: 1.8rem;
 }
-#border-1-cv{
+.border-1-cv{
     border-top: 1px solid rgba( 218, 211, 211, 0.903);
 }
 
@@ -185,8 +187,8 @@ iconify-icon{
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  padding-top: 5rem;
-  padding-bottom: 3rem;
+  padding-top: 20rem;
+  padding-bottom: 15rem;
  
 }
 #section-formulaire{
@@ -245,6 +247,7 @@ iconify-icon{
 
   #main-projets{
    display: flex;
+   justify-content: center;
    margin-top: 5rem;
    margin-bottom: 5rem;
    justify-content: space-between;
@@ -252,32 +255,39 @@ iconify-icon{
 }
 #image-projets-1{
   display: flex;
+  justify-content: center;
   padding-left: 45rem;
 }
 #image-projets-2{
     display: flex;
+    justify-content: center;
     padding-left: 45rem;
   }
 #img-projets-1{
    margin-bottom: 5rem;
-   width: 30rem;
+   width: 40%;
    border: 20px solid #DFDFDF;
   
 }
 #img-projets-2{
-    padding-bottom: 5rem;
-    width: 30rem;
+    margin-bottom: 5rem;
+    width: 40%;
     border: 20px solid #DFDFDF;
   
  }
 .section-projets-text{
-    padding-top: 2rem;
+    display: block;
+    justify-content: center;
+    text-align: left;
     position: absolute;
-    width: 25rem;
+    width: 30rem;
     line-height: 1.7rem ;
+    margin-left: 5rem;
     
 }
 #main-projets h2{
     padding-top: 1rem;
     padding-bottom: 3rem;
+    margin-left: 5rem;
 }
+
